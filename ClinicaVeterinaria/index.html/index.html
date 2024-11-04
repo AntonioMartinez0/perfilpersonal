@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clínica Veterinaria</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Barra de navegación -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <a class="navbar-brand" href="#inicio">🐾 Clínica Veterinaria</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+        <li class="nav-item"><a class="nav-link" href="#equipo">Nuestro Equipo</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Sección de Inicio -->
+  <section id="inicio" class="container text-center my-5">
+    <h1>Bienvenidos a nuestra Clínica Veterinaria 🐶🐱</h1>
+    <p>Nos preocupamos por el bienestar de tus mascotas. Ofrecemos servicios de calidad y cuidado especializado.</p>
+    <img src="C:\Users\Antonio Martinez\Desktop\ClinicaVeterinaria\imagenes.jpg" alt="Clínica Veterinaria" class="img-fluid">
+    <a href="#contacto" class="btn btn-primary btn-lg mt-4">Contáctanos</a>
+  </section>
+
+  <!-- Sección de Servicios -->
+  <section id="servicios" class="container my-5">
+    <h2>Servicios</h2>
+    <div class="row">
+      <!-- Servicio 1 -->
+      <div class="col-md-4 text-center">
+        <img src="images/servicio1.jpg" alt="Consulta Veterinaria" class="img-fluid">
+        <h3>Consulta Veterinaria</h3>
+        <p>Atención personalizada para tu mascota.</p>
+      </div>
+      <!-- Servicio 2 -->
+      <div class="col-md-4 text-center">
+        <img src="images/servicio2.jpg" alt="Cirugía" class="img-fluid">
+        <h3>Cirugía</h3>
+        <p>Procedimientos seguros y avanzados.</p>
+      </div>
+      <!-- Servicio 3 -->
+      <div class="col-md-4 text-center">
+        <img src="images/servicio3.jpg" alt="Vacunación" class="img-fluid">
+        <h3>Vacunación</h3>
+        <p>Protégete con las vacunas necesarias.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección de Nuestro Equipo -->
+  <section id="equipo" class="container my-5">
+    <h2>Nuestro Equipo</h2>
+    <div class="row">
+      <div class="col-md-4 text-center">
+        <img src="images/vet1.jpg" alt="Veterinario 1" class="img-fluid rounded-circle">
+        <h3>Dr. Juan Pérez</h3>
+        <p>Especialista en Medicina General</p>
+      </div>
+      <div class="col-md-4 text-center">
+        <img src="images/vet2.jpg" alt="Veterinario 2" class="img-fluid rounded-circle">
+        <h3>Dra. María Gómez</h3>
+        <p>Cirugía y Emergencias</p>
+      </div>
+      <div class="col-md-4 text-center">
+        <img src="images/vet3.jpg" alt="Veterinario 3" class="img-fluid rounded-circle">
+        <h3>Dr. Carlos Ruiz</h3>
+        <p>Dermatología Veterinaria</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección de Contacto -->
+  <section id="contacto" class="container my-5">
+    <h2>Contacto</h2>
+    <p class="contact-info">📞 Teléfono: <span class="highlight">+1 123 456 7890</span> <br> WhatsApp: <span class="highlight">+1 123 456 7890</span></p>
+    <form id="contactForm" class="mt-4">
+      <div class="form-group">
+        <label for="name">Nombre:</label>
+        <input type="text" class="form-control" id="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" class="form-control" id="email" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Mensaje:</label>
+        <textarea class="form-control" id="message" rows="3" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-success">Enviar</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p>Síguenos en redes sociales:</p>
+    <div class="social-icons">
+      <a href="#" class="text-white">🐦 Twitter</a> |
+      <a href="#" class="text-white">📘 Facebook</a> |
+      <a href="#" class="text-white">📷 Instagram</a> |
+      <a href="#" class="text-white">🎥 YouTube</a> |
+      <a href="#" class="text-white">💼 LinkedIn</a>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.4.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

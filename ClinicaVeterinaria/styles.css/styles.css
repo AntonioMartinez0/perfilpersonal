@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .highlight {
+    color: #28a745;
+    font-weight: bold;
+    transition: transform 0.3s;
+  }
+  
+  .highlight:hover {
+    transform: scale(1.1);
+  }
+  
+  footer {
+    background-color: #343a40;
+    color: white;
+  }
+  
+  .contact-info {
+    font-size: 1.2em;
+  }
+  

@@ -1,0 +1,6 @@
+git config --global user.name "Antonio M. Martinez"
+git config --global user.email "antoniomartinezmoises@gmail.com"
+
+
+git remote add origin <https://github.com/AntonioMartinez0/web-veterinaria-Moises.git>
+
